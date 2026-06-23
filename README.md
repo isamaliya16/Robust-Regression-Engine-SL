@@ -1,296 +1,468 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=900&color=1F4E79&center=true&vCenter=true&width=700&lines=Risk+Alert+Classifier;Early+Warning+System+for+Banking;Imbalanced+Data+%2B+Ensemble+Learning;Powered+by+Random+Forest+%2B+SMOTE" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Robust%20Regression%20Engine&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Advanced%20Supervised%20Learning%20%7C%20Regularization%20%7C%20Ensemble%20Methods&descAlignY=58&descSize=16" width="100%"/>
 
-<br>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-1.4+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Domain-Real%20Estate%20AI-6366f1?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-0ea5e9?style=for-the-badge"/>
+</p>
 
-![Project Banner](https://capsule-render.vercel.app/api?type=waving&color=0:2E74B5,100:1F4E79&height=200&section=header&text=Risk%20Alert%20Classifier&fontSize=42&fontColor=ffffff)
-
-<br>
-
-[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge&logo=checkmarx&logoColor=white)](#)
-[![Model](https://img.shields.io/badge/Final%20Model-Tuned%20Random%20Forest-2E74B5?style=for-the-badge&logo=scikitlearn&logoColor=white)](#)
-[![Domain](https://img.shields.io/badge/Domain-Digital%20Banking%20%2F%20Fraud%20Detection-1F4E79?style=for-the-badge&logo=shield&logoColor=white)](#)
-[![Type](https://img.shields.io/badge/Type-Binary%20Classification-6B6B6B?style=for-the-badge)](#)
-
-<br>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Ridge%20Regression-✓-64748b?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Lasso%20Regression-✓-64748b?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Random%20Forest-✓-64748b?style=flat-square"/>
+  <img src="https://img.shields.io/badge/SVR-✓-64748b?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Cross--Validation-✓-64748b?style=flat-square"/>
+</p>
 
 </div>
+
+---
 
 
 ## 🎬 Video Walkthrough
 
 <div align="center">
 
-[![Watch the Project Walkthrough](https://img.shields.io/badge/▶%20Watch%20Full%20Walkthrough-Google%20Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1yR5E9_BT7HF8LrNZF_bs5nRINXy1QSxs/view?usp=sharing)
+[![Watch the Project Walkthrough](https://img.shields.io/badge/▶%20Watch%20Full%20Walkthrough-Google%20Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1y5vtVZzRVDOrzRIXRhOQkvGfftu59VK1/view?usp=sharing)
 
-> 🎥 **A complete end-to-end video explanation** of the project — covering data preparation, model building, imbalance handling, and the final deployment recommendation.
+> 🎥 A complete end-to-end video explanation of the project — covering regularization techniques (Ridge & Lasso), cross-validation strategies, tree-based & SVR models, and real estate price prediction insights.
 >
-> 📌 *Click the button above or [open the video directly →](https://drive.google.com/file/d/1yR5E9_BT7HF8LrNZF_bs5nRINXy1QSxs/view?usp=sharing)*
+> 📌 *Click the button above or [open the video directly →](https://drive.google.com/file/d/1y5vtVZzRVDOrzRIXRhOQkvGfftu59VK1/view?usp=sharing)*
 
 </div>
 
-<br>
+---
 
-## 🎯 About the Project
+## 📌 Table of Contents
 
-> An end-to-end **classification pipeline** built for a digital banking platform to identify high-risk customers likely to default on payments or engage in fraudulent behavior — combining class imbalance handling, ensemble learning, and hyperparameter tuning.
+- [🎯 Objective](#-objective)
+- [🏢 Problem Statement](#-problem-statement)
+- [⚙️ Tech Stack](#️-tech-stack)
+- [📐 Part A — Conceptual Foundation](#-part-a--conceptual-foundation)
+- [📊 Part B — Dataset Preparation](#-part-b--dataset-understanding--preparation)
+- [📉 Part C — Regularized Linear Models](#-part-c--regularized-linear-models)
+- [🔁 Part D — Cross-Validation Strategies](#-part-d--cross-validation-strategies)
+- [🌳 Part E — Tree-Based Regression](#-part-e--tree-based-regression-models)
+- [⚡ Part F — Support Vector Regression](#-part-f--support-vector-regression)
+- [📈 Part G — Model Comparison & Evaluation](#-part-g--model-comparison--evaluation)
+- [📝 Part H — Final Analysis & Reporting](#-part-h--final-analysis--reporting)
+- [📦 Deliverables](#-deliverables)
+- [📄 License](#-license)
 
-This project takes on the role of a **Data Scientist at a digital banking platform**, working with customer demographic, behavioral, and transaction data. The challenge goes beyond building an accurate model — it requires correctly handling severe class imbalance, comparing multiple classifiers, and selecting the best model based on a business priority: **minimizing missed high-risk customers (false negatives).**
+---
+
+## 🎯 Objective
+
+> **Evaluate students' mastery of advanced supervised learning regression techniques** with a strong focus on regularization, model generalization, cross-validation strategy design, and tree-based algorithms.
+
+By completing this project, students will be able to:
+
+- ✅ Build a **production-ready regression pipeline** from scratch
+- ✅ Apply **L1 and L2 regularization** to control overfitting
+- ✅ Design and compare **four cross-validation strategies**
+- ✅ Train and evaluate **linear, tree-based, and kernel-based** regressors
+- ✅ Derive **actionable business insights** from model outputs
+
+---
+
+## 🏢 Problem Statement
+
+You are a **Machine Learning Engineer** at a real estate analytics company. The existing house price prediction model suffers from the following issues:
+
+| Issue | Business Impact |
+|-------|----------------|
+| Overfitting | Poor generalization on new property listings |
+| Unstable predictions | Inconsistent pricing across different city datasets |
+| No regularization | High variance in coefficient estimates |
+| Single model approach | No ensemble fallback or comparison baseline |
+
+### 🎯 Mission
+
+Build a **robust regression pipeline** that applies regularization, validates properly, compares model types, and generalizes reliably on unseen real estate data.
+
+
+---
+
+## ⚙️ Tech Stack
 
 <div align="center">
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-   88% Low Risk   ████████████████████████████░░
-   12% High Risk  ████░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+| Layer | Tools |
+|-------|-------|
+| **Language** | Python 3.10+ |
+| **ML Framework** | Scikit-Learn 1.4+ |
+| **Data Processing** | Pandas, NumPy |
+| **Visualization** | Matplotlib, Seaborn, Plotly |
+| **Notebook** | Jupyter Lab |
+| **Version Control** | Git + GitHub |
 
 </div>
 
-<br>
+---
 
-## ✨ Highlights
+## 📐 Part A — Conceptual Foundation
 
-<table>
-<tr>
-<td width="50%" valign="top">
+> Core theoretical concepts that form the foundation of this project.
 
-### 📐 Three Classifier Approaches
-- **Linear baseline** → Logistic Regression
-- **Tree-based** → Decision Tree
-- **Ensemble** → Random Forest (Tuned)
+---
 
-</td>
-<td width="50%" valign="top">
+### 1️⃣ What is Regularization?
 
-### ⚖️ Imbalance Handling Techniques
-- Under-Sampling and Over-Sampling
-- SMOTE — synthetic minority oversampling
-- ADASYN — adaptive boundary-focused generation
+Regularization adds a **penalty term to the loss function** to prevent a model from learning overly complex patterns from training data. It discourages large coefficient values, which are often a sign of overfitting.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**Why it is needed:**
+Without regularization, models tend to memorize training data — including noise — and perform poorly on unseen data. Regularization controls this by constraining the model's complexity.
 
-### 🔬 Robust Hyperparameter Tuning
-- Randomized Search CV for broad parameter exploration
-- Grid Search CV for fine-tuning around best region
-- Recall-optimized scoring throughout
+---
 
-</td>
-<td width="50%" valign="top">
+### 2️⃣ Ridge (L2) vs Lasso (L1) Regression
 
-### 🏢 Business-First Thinking
-- Type-I vs Type-II error framed in banking context
-- Recall prioritized over Accuracy
-- Deployment recommendation with justification
+| Property | Ridge (L2) | Lasso (L1) |
+|----------|-----------|-----------|
+| **Penalty Applied To** | Sum of squared coefficients | Sum of absolute coefficients |
+| **Feature Selection** | Retains all features — shrinks them | Can zero out irrelevant features |
+| **Output Type** | Dense solution | Sparse solution |
+| **Handles Multicollinearity** | Yes — distributes weight evenly | May randomly drop correlated features |
+| **Best Use Case** | When all features contribute | When only a few features truly matter |
+| **Geometric Constraint** | Circular boundary | Diamond-shaped boundary |
 
-</td>
-</tr>
-</table>
+---
 
-<br>
+### 3️⃣ What is Cross-Validation?
 
-## 🗺️ Project Journey
+Cross-validation is a **model evaluation technique** that splits data into multiple train and test folds to estimate how a model performs on unseen data. It reduces the risk of misleading results from a single random train-test split.
 
-<div align="center">
+**Why it is important:**
+A single split can overestimate or underestimate true performance by chance. Cross-validation averages results across multiple splits for a more reliable, stable estimate.
 
-| Stage | Focus | Outcome |
-|:---:|:---|:---|
-| 🧩 **Part A** | Conceptual Foundations | Logistic Regression, metrics, imbalance explained |
-| 📦 **Part B** | Data Preparation | Feature engineering, encoding, KNN imputation, scaling |
-| 📍 **Part C** | Baseline Model | Logistic Regression with full metric evaluation |
-| 🔄 **Part D** | Imbalance Handling | Under-sampling, SMOTE, ADASYN applied and compared |
-| 🌲 **Part E** | Tree-Based Models | Decision Tree vs Random Forest, overfitting analysis |
-| ⚙️ **Part F** | Hyperparameter Tuning | Randomized Search + Grid Search for both tree models |
-| 📊 **Part G** | ROC Analysis | AUC-ROC curves for all models head-to-head |
-| 📋 **Part H** | Reporting | Final model selection, business interpretation |
+---
 
-</div>
+### 4️⃣ Cross-Validation Techniques
 
-<br>
+#### 🔁 K-Fold Cross-Validation
+Data is divided into **K equal folds**. The model trains on K-1 folds and validates on the remaining one, rotating K times. The final score is the average across all K rounds. This is the most commonly used strategy for general-purpose evaluation.
 
-## 🔍 The Dataset
+#### ⚖️ Stratified K-Fold Cross-Validation
+An extension of K-Fold that **preserves the distribution of target values** in every fold. The continuous target is binned into groups so each fold contains a balanced mix of all price ranges — preventing folds dominated by only high-price or only low-price houses.
 
-<div align="center">
+#### 🔬 Leave-One-Out Cross-Validation (LOOCV)
+A special case where **K equals the total number of samples**. Each sample is used as the sole validation point once. Produces a nearly unbiased estimate but is computationally expensive — practical only for small datasets.
 
-<table>
-<tr><th>Category</th><th>Features</th></tr>
-<tr><td>👤 Demographics</td><td>Age, Gender, Region, Employment Type</td></tr>
-<tr><td>💰 Financial Profile</td><td>Annual Income, Credit Score, Credit Utilization Ratio, Debt Balance</td></tr>
-<tr><td>⚠️ Payment Behavior</td><td>Missed Payments (12m), Avg Late Payment Days, Cash Advances (6m)</td></tr>
-<tr><td>📊 Transaction Signals</td><td>Monthly Transaction Count, Monthly Spend, Last Transaction Date → Days Ago</td></tr>
-<tr><td>🚨 Risk Signals</td><td>Complaints (6m), Failed Login Attempts (3m), Account Tenure</td></tr>
-<tr><td>🎯 Target</td><td><code>risk_status</code> — Low Risk (0) vs High Risk (1)</td></tr>
-</table>
+#### 📅 Time Series Split
+Strictly **respects time order** — training always uses earlier data, validation always uses later data. Prevents future data from leaking into historical training windows, which is essential for any time-dependent dataset.
 
-</div>
+---
 
-**Dataset size:** 4,600 customer records | **Class split:** ~88% Low Risk, ~12% High Risk
+### 5️⃣ Why Tree-Based Models Don't Need Feature Scaling
 
-<br>
+Tree-based models make decisions by applying **threshold splits on individual features** — for example, "Is square footage greater than 1,500?" These comparisons use relative values, not absolute magnitudes or distances. Scaling does not change the order or relative ranking of values, so it has no effect on split points or model output.
 
-## 🏆 Final Verdict
+Linear models and SVR rely on distances or dot products, where differences in feature scale directly distort results — making normalization essential for them.
 
-<div align="center">
+---
 
-### 🌲 Tuned Random Forest — Recommended for Deployment
+## 📊 Part B — Dataset Understanding & Preparation
 
-</div>
+### Dataset Overview
 
-> All four models — Logistic Regression, Decision Tree, untuned Random Forest, and Tuned Random Forest — were evaluated. Logistic Regression achieved the highest scores on this particular test split (Recall and AUC near 1.0), but **Tuned Random Forest was selected as the final deployment model.**
+| Feature Category | Description |
+|-----------------|-------------|
+| **Structural Attributes** | Square footage, number of rooms, floors, garage spaces |
+| **Location Indicators** | Proximity scores, neighborhood index, area rating |
+| **Temporal Details** | Year built, year renovated, property age |
+| **Target Variable** | House Price (USD) — continuous numeric value |
 
-<div align="center">
+---
 
-| Why Tuned Random Forest Leads the Recommendation |
-|:---|
-| 🌲 Ensemble of 100+ trees — less sensitive to any single train-test split |
-| ⚙️ Hyperparameter tuning via Randomized + Grid Search optimized for Recall |
-| 📉 Reduces overfitting seen in the untuned Decision Tree (100% train accuracy) |
-| 🏦 More robust and reliable for real-world banking deployment |
+### Task 6 — Feature & Target Identification
 
-</div>
+The **target variable** is House Price. All remaining columns serve as input features. A preliminary review identifies the data type of each column and flags any that require special treatment such as encoding or date parsing.
 
-<br>
+---
 
-## ⚖️ Why Imbalance Handling Matters
+### Task 7 — Train-Test Split
 
-<div align="center">
+| Split | Proportion | Purpose |
+|-------|-----------|---------|
+| **Training Set** | 80% | Model fitting and hyperparameter tuning |
+| **Test Set** | 20% | Final evaluation only — never seen during training |
 
-<table>
-<tr>
-<td align="center" width="33%">
+A fixed random seed ensures the split is reproducible across all experiments.
 
-### 📉 Without Handling
-**Model predicts Low Risk always**
-<br>
-88% accuracy — but 0% High Risk caught
+---
 
-</td>
-<td align="center" width="33%">
+### Task 8 — Preprocessing & Feature Scaling
 
-### 🔄 SMOTE Applied
-**Synthetic minority samples generated**
-<br>
-Balances classes without data loss
+Feature scaling is applied so linear models and SVR are not distorted by differences in feature magnitude. A **StandardScaler** (zero mean, unit variance) is fitted only on the training set. The same transformation is then applied to the test set — fitting on test data would constitute data leakage.
 
-</td>
-<td align="center" width="33%">
+> **Note:** Tree-based models do not require scaling. It is only applied for Ridge, Lasso, and SVR.
 
-### 🎯 ADASYN Applied
-**Focuses on boundary-adjacent samples**
-<br>
-More aggressive minority generation
+---
 
-</td>
-</tr>
-</table>
+## 📉 Part C — Regularized Linear Models
 
-</div>
+### Task 9 — Ridge Regression (L2)
 
-<div align="center">
+Ridge adds the **sum of squared coefficients** as a penalty to the loss function. This shrinks all coefficients toward zero but never eliminates any feature entirely. It is particularly effective when many features are correlated — a common scenario in real estate data where size, rooms, and area often move together.
 
-**For a banking risk system, missing a high-risk customer is far costlier than a false alarm — so Recall is the primary metric.**
+**Key parameter — Alpha (α):** Controls regularization strength. Higher alpha means more shrinkage. Optimal alpha is found using cross-validation.
 
-</div>
+---
 
-<br>
+### Task 10 — Lasso Regression (L1)
 
-## 🎯 Precision vs Recall — The Business Trade-off
+Lasso adds the **sum of absolute coefficient values** as a penalty. Unlike Ridge, Lasso can reduce some coefficients to exactly zero, removing those features from the model. This makes Lasso a powerful tool for automatic feature selection.
 
-<div align="center">
+**Key insight:** If Lasso zeroes out a feature's coefficient, that feature has no meaningful predictive value for house prices — directly actionable for the business team.
 
-<table>
-<tr>
-<td align="center" width="50%">
+---
 
-### 🎯 High Precision
-**Fewer genuine customers wrongly flagged**
-<br>
-Protects user experience and reduces unnecessary reviews
+### Task 11 — Alpha Tuning via Cross-Validation
 
-</td>
-<td align="center" width="50%">
+The regularization parameter alpha is tuned by testing a wide logarithmic range of values and selecting the one that produces the best average validation score. This process is automated using built-in cross-validated estimators for both Ridge and Lasso.
 
-### 🛟 High Recall
-**Fewer high-risk customers missed**
-<br>
-Prevents payment defaults, fraud losses, regulatory risk
+---
 
-</td>
-</tr>
-</table>
+### Task 12 — Ridge vs Lasso Comparison
 
-</div>
+| Aspect | Ridge (L2) | Lasso (L1) |
+|--------|-----------|-----------|
+| **Training Error** | Low — fits training data well | Slightly higher due to sparsity |
+| **Validation Error** | Stable across different splits | May vary with feature sparsity |
+| **Coefficient Behavior** | All features retain non-zero values | Some features completely zeroed out |
+| **Feature Selection** | No automatic selection | Built-in automatic selection |
+| **Interpretability** | Moderate | High — clear feature importance |
+| **Multicollinearity** | Handles well | May randomly drop correlated features |
 
-<div align="center">
+---
 
-**Recall is prioritized: a missed high-risk customer costs more than a false alarm.**
+## 🔁 Part D — Cross-Validation Strategies
 
-</div>
+### Task 13 — All Four CV Techniques Applied
 
-<br>
+Each strategy is applied to the same model and dataset for a fair comparison. Every technique produces a set of R² scores — one per fold — which are averaged and analyzed for consistency.
 
-## 🧪 Theory Covered
+#### K-Fold Cross-Validation
+- Splits data into 10 equal folds with shuffling enabled
+- Each fold serves as the validation set exactly once
+- Average R² across all 10 folds is the reported performance metric
+- Standard baseline CV method for most regression tasks
 
-<details>
-<summary><b>📖 Click to expand the conceptual foundations explored in this project</b></summary>
-<br>
+#### Stratified K-Fold Cross-Validation
+- House price is first binned into 5 quantile groups
+- Ensures each fold contains a proportional mix of all price ranges
+- Prevents folds dominated by only high-price or low-price samples
+- Produces a more representative and fair evaluation
 
-- Logistic Regression and the sigmoid function for binary probability output
-- Why accuracy is insufficient for imbalanced datasets
-- Type-I Error (False Positive) and Type-II Error (False Negative) in banking risk
-- Precision, Recall, F1-Score, TPR, and FPR — definitions and trade-offs
-- AUC-ROC as a threshold-independent evaluation metric
-- Class imbalance — causes, consequences, and solutions
-- Decision Tree overfitting and how depth constraints help
-- Random Forest bagging — why averaging across trees reduces variance
-- SMOTE vs ADASYN for synthetic minority class generation
-- Randomized Search CV vs Grid Search CV for hyperparameter optimization
+#### Leave-One-Out Cross-Validation (LOOCV)
+- Number of folds equals total number of samples
+- Provides the least biased performance estimate possible
+- Very high computational cost — best for small datasets only
+- Results typically align closely with K-Fold when K ≥ 10
 
-</details>
+#### Time Series Split
+- Training always uses earlier data; validation uses later data
+- Prevents future price data from leaking into training windows
+- Essential for datasets with temporal features or price trends
+- Reflects realistic deployment conditions most accurately
 
-<br>
+---
 
-## 🛠️ Tech Stack
+### Task 14 — CV Strategy Performance Analysis
 
-<div align="center">
+| CV Strategy | Bias | Variance | Compute Cost | Best For |
+|-------------|------|----------|-------------|---------|
+| K-Fold (k=10) | Low | Moderate | Low | General-purpose evaluation |
+| Stratified K-Fold | Low | Low | Low | Skewed target distributions |
+| LOOCV | Very Low | High | Very High | Small datasets only |
+| Time Series Split | Moderate | Moderate | Low | Time-ordered data |
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-LR%20%7C%20DT%20%7C%20RF%20%7C%20GridSearch-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![imbalanced-learn](https://img.shields.io/badge/imbalanced--learn-SMOTE%20%7C%20ADASYN-2E74B5?style=flat-square)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Wrangling-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Operations-013243?style=flat-square&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-ROC%20Curve%20Visualization-11557C?style=flat-square)
+---
 
-</div>
+## 🌳 Part E — Tree-Based Regression Models
 
-<br>
+### Task 15 & 16 — Decision Tree Regression
 
-## 📚 What This Project Demonstrates
+A Decision Tree learns by splitting data at thresholds that minimize prediction error. Without constraints, a fully grown tree memorizes training data and overfits severely. Complexity is controlled through hyperparameters.
 
-<div align="center">
+| Hyperparameter | Purpose | Effect of Increasing |
+|---------------|---------|---------------------|
+| **max_depth** | Limits how deep the tree grows | More complex — higher overfit risk |
+| **min_samples_split** | Minimum samples needed to split a node | Simpler tree — less overfitting |
+| **min_samples_leaf** | Minimum samples required at a leaf | Smoother predictions — reduced variance |
 
-```
-✔ Handling severely imbalanced datasets using SMOTE and ADASYN
-✔ Comparing a linear baseline against tree-based and ensemble models
-✔ Diagnosing overfitting through train vs test accuracy gap analysis
-✔ Applying Randomized Search + Grid Search for recall-optimized tuning
-✔ Evaluating models with AUC-ROC across decision thresholds
-✔ Selecting a deployment model based on business risk priorities
-```
+> **Pruning Strategy:** Start shallow and increase depth gradually while monitoring validation error. Stop when validation error stops improving.
 
-</div>
+---
 
-<br>
+### Task 17 — Random Forest Regression
+
+A Random Forest is an ensemble of many Decision Trees, each trained on a **random bootstrap sample** and a **random feature subset** at every split. Final predictions are the average across all trees — dramatically reducing variance without increasing bias.
+
+| Hyperparameter | Typical Value | Purpose |
+|---------------|-------------|---------|
+| **n_estimators** | 100–500 | Number of trees in the forest |
+| **max_depth** | 8–15 | Maximum depth per tree |
+| **max_features** | sqrt(n_features) | Feature subset per split |
+| **min_samples_split** | 10–20 | Minimum samples to allow a split |
+| **bootstrap** | True | Random sampling with replacement |
+
+---
+
+### Task 18 — Single Tree vs Ensemble Performance
+
+| Model | Train R² | Test R² | Overfit Risk | Interpretability |
+|-------|----------|---------|-------------|----------------|
+| Decision Tree (deep) | Very High | Low | High | High — fully visualizable |
+| Decision Tree (pruned) | Moderate | Moderate | Medium | High — readable tree |
+| Random Forest | High | High | Low | Moderate — feature importance |
+
+> **Key Insight:** Ensemble averaging reduces prediction variance without meaningfully increasing bias — this is the core advantage of Random Forest over a single tree.
+
+---
+
+## ⚡ Part F — Support Vector Regression
+
+### Task 19 — SVR with Multiple Kernels
+
+SVR finds a function that fits as many data points as possible within a margin (epsilon tube) around the prediction. Points outside the tube are penalized. Different kernel functions allow SVR to model linear and non-linear relationships.
+
+| Kernel | How It Works | Strength | Weakness |
+|--------|-------------|---------|---------|
+| **Linear** | Fits a straight hyperplane | Fast, interpretable | Cannot capture non-linear patterns |
+| **RBF (Gaussian)** | Maps data into higher-dimensional space | Excellent for non-linear data | Sensitive to C and γ |
+| **Polynomial** | Uses polynomial feature combinations | Flexible boundary | Risk of overfitting; slower |
+
+---
+
+### Task 20 — Hyperparameter Tuning
+
+| Hyperparameter | Role | Typical Search Range |
+|---------------|------|---------------------|
+| **C (Regularization)** | Penalty for errors outside the epsilon tube. Higher C = less tolerance. | 0.1 → 1000 |
+| **γ (Gamma)** | Influence reach of each training sample in RBF. Low γ = broad influence. | 0.001 → auto |
+| **ε (Epsilon)** | Width of the tube where errors are not penalized | 0.01 → 1.0 |
+
+---
+
+### Task 21 — SVR vs Other Models
+
+| Aspect | SVR (RBF) | Ridge / Lasso | Random Forest |
+|--------|----------|--------------|--------------|
+| **Handles Non-linearity** | Yes — kernel trick | No — linear only | Yes — tree splits |
+| **Feature Scaling** | Required | Required | Not required |
+| **Interpretability** | Low | High — readable coefficients | Moderate |
+| **Training Speed** | Slow on large data | Very fast | Moderate |
+| **Hyperparameter Sensitivity** | High | Low (alpha only) | Moderate |
+
+---
+
+## 📈 Part G — Model Comparison & Evaluation
+
+### Task 22 — Evaluation Metrics
+
+| Metric | What It Measures | Interpretation |
+|--------|----------------|---------------|
+| **MSE** | Average of squared prediction errors | Penalizes large errors heavily. Lower is better. |
+| **MAE** | Average of absolute prediction errors | Easy to interpret in price units (USD). Lower is better. |
+| **RMSE** | Square root of MSE | Same units as house price — more intuitive than MSE. |
+| **R² Score** | Proportion of price variance explained | Ranges 0 to 1. Closer to 1 is better. |
+
+---
+
+### Task 23 — Master Model Comparison
+
+| Model | MSE | MAE | RMSE | R² Score | Overfit Risk |
+|-------|-----|-----|------|----------|-------------|
+| Ridge Regression | — | — | — | — | Low |
+| Lasso Regression | — | — | — | — | Low |
+| Decision Tree (pruned) | — | — | — | — | Medium |
+| Random Forest | — | — | — | — | Low |
+| SVR (Linear) | — | — | — | — | Low |
+| SVR (RBF) | — | — | — | — | Medium |
+
+> Fill in metric values after running experiments in your notebook.
+
+---
+
+### Task 24 — Overfitting & Underfitting Signals
+
+| Signal | Description | Diagnosis | Solution |
+|--------|------------|-----------|---------|
+| Train R² >> Test R² | Large gap between sets | **Overfitting** | Regularize, prune, reduce complexity |
+| Both R² values are low | Fails on both sets | **Underfitting** | Increase complexity, add features |
+| Train R² ≈ Test R² (both high) | Consistent high performance | **Well-generalized** | Ready for deployment |
+| High variance across CV folds | Performance varies widely | **Unstable model** | Use ensembles or more training data |
+
+---
+
+## 📝 Part H — Final Analysis & Reporting
+
+### Task 25 — Final Report Coverage
+
+#### 🏆 Best-Performing Model
+Determined after comparing all models on the holdout test set. Expected top candidates are **Random Forest** (non-linear datasets) and **Ridge Regression** (high feature correlation). Selection is based on RMSE and R² Score.
+
+---
+
+#### 🔒 Impact of Regularization
+
+| Finding | Detail |
+|---------|--------|
+| Ridge stabilizes predictions | Prevents coefficient explosion when features are correlated |
+| Lasso removes noise features | Automatically zeroes out uninformative predictors |
+| Both outperform plain OLS | Regularized models beat unregularized regression on holdout data |
+| Alpha selection is critical | Too low causes overfitting; too high causes underfitting |
+
+---
+
+#### 🔁 Role of Cross-Validation in Stability
+
+- K-Fold provides a reliable, efficient general-purpose estimate
+- Stratified K-Fold ensures consistent evaluation across all price ranges
+- LOOCV confirms near-unbiased estimates for small datasets
+- Time Series Split is essential for temporal features to prevent leakage
+- CV results directly guide optimal alpha selection for Ridge and Lasso
+
+---
+
+#### 📊 Linear vs Non-Linear Regressors
+
+| Aspect | Linear Models | Non-Linear Models |
+|--------|--------------|------------------|
+| **Interpretability** | High — coefficients directly readable | Lower — less transparent |
+| **Training Speed** | Very fast | Slower |
+| **Feature Engineering** | May need manual interaction terms | Captures interactions automatically |
+| **Performance** | Good for roughly linear relationships | Better for complex patterns |
+| **Stability** | Very stable across datasets | May vary with hyperparameter choices |
+
+---
+
+#### 🏠 Business Interpretation
+
+The **Random Forest** model identifies property size, location index, and renovation year as the top drivers of house price — directly actionable for the company's valuation team.
+
+**Regularized linear models** provide stable pricing baselines ideal for automated listing tools where speed and interpretability are priorities.
+
+**Cross-validation results** confirm that model performance is consistent across all data splits — giving the company confidence to deploy predictions across all city datasets.
+
+---
+
+### Task 26 — Submission Checklist
+
+| Deliverable | Description |
+|-------------|-------------|
+| ✅ Jupyter Notebooks (Parts A–H) | One notebook per part with clear, reproducible outputs |
+| ✅ Evaluation Tables (CSV) | All model metrics consolidated in a single file |
+| ✅ Visualization Plots | Coefficient paths, learning curves, residual plots |
+| ✅ Final PDF Report | Business-ready summary with insights and recommendations |
+| ✅ Clean Source Code | Modular, documented Python modules in `src/` |
+
+---
 
 ## 👨‍💻 Author
 
@@ -299,9 +471,11 @@ Prevents payment defaults, fraud losses, regulatory risk
 <img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="100" height="100" style="border-radius: 50%;" alt="Author Avatar"/>
 
 ### **Ayush Isamaliya**
-*Data Science & Aspiring ML Engineer*
+*Data Science  & Aspiring ML Engineer*
 
 </div>
+
+---
 
 ---
 
@@ -314,16 +488,19 @@ Prevents payment defaults, fraud losses, regulatory risk
 
 </div>
 
-<br>
+---
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:1F4E79,100:2E74B5&height=120&section=footer)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%"/>
 
-**Built as part of the Python Data Science track at Red & White Skill Education**
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=1500&color=6B6B6B&center=true&vCenter=true&width=500&lines=Thank+you+for+reviewing+this+project!;Star+%E2%AD%90+if+you+found+it+insightful." alt="Footer Typing SVG" />
-
-*Made with ❤️ | PR3 — Risk Alert Classifier | Imbalanced Classification | Digital Banking Security*
+**Robust Regression Engine · Machine Learning Engineering · Real Estate Analytics**
 
 </div>
