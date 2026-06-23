@@ -21,17 +21,17 @@
 </div>
 
 ---
-
+---
 
 ## 🎬 Video Walkthrough
 
 <div align="center">
 
-[![Watch the Project Walkthrough](https://img.shields.io/badge/▶%20Watch%20Full%20Walkthrough-Google%20Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1y5vtVZzRVDOrzRIXRhOQkvGfftu59VK1/view?usp=sharing)
+[![Watch the Project Walkthrough](https://img.shields.io/badge/▶%20Watch%20Full%20Walkthrough-Google%20Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1IuLyoWia_rZ_TifhcBIesV8PVTcjXg01/view?usp=sharing)
 
 > 🎥 A complete end-to-end video explanation of the project — covering regularization techniques (Ridge & Lasso), cross-validation strategies, tree-based & SVR models, and real estate price prediction insights.
 >
-> 📌 *Click the button above or [open the video directly →](https://drive.google.com/file/d/1y5vtVZzRVDOrzRIXRhOQkvGfftu59VK1/view?usp=sharing)*
+> 📌 *Click the button above or [open the video directly →](https://drive.google.com/file/d/1IuLyoWia_rZ_TifhcBIesV8PVTcjXg01/view?usp=sharing)*
 
 </div>
 
